@@ -20,7 +20,7 @@
             <h1><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0000F5"><path d="M160-240q-33 0-56.5-23.5T80-320v-320q0-33 23.5-56.5T160-720h640q33 0 56.5 23.5T880-640v320q0 33-23.5 56.5T800-240H160Zm0-80h640v-320H680v160h-80v-160h-80v160h-80v-160h-80v160h-80v-160H160v320Zm120-160h80-80Zm160 0h80-80Zm160 0h80-80Zm-120 0Z"/></svg></h1>
           </div>
          </div>
-      <input type="number" id="resultArea" readonly placeholder="Result Screen">
+      <input type="number" id='resultArea' disabled placeholder="Result Screen">
      <div class="cal-fitures">
         <div class="operators">
             <h2 id="c">C</h2>
@@ -35,39 +35,39 @@
             <h2 id="mod">/</h2>
         </div>
         <div class="operators">
-            <h1>7</h1>
+            <h1 id="operand7">7</h1>
         </div>
         <div class="operators">
-            <h1>8</h1>
+            <h1  id="operand8">8</h1>
         </div>
         <div class="operators">
-            <h1>9</h1>
+            <h1  id="operand9">9</h1>
         </div>
         <div class="operators">
          <h1><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0000F5"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></h1>
         </div>
         <div class="operators">
-            <h1>4</h1>
+            <h1  id="operand4">4</h1>
         </div>
         <div class="operators">
-            <h1>5</h1>
+            <h1  id="operand5">5</h1>
         </div>
   
         <div class="operators">
-            <h1>6</h1>
+            <h1  id="operand6">6</h1>
         </div>
         <div class="operators">
             <h1 id="minus">-</h1>
         </div>
 
         <div class="operators">
-            <h1>1</h1>
+            <h1  id="operand1">1</h1>
         </div>
         <div class="operators">
-            <h1>2</h1>
+            <h1  id="operand2">2</h1>
         </div>
         <div class="operators">
-            <h1>3</h1>
+            <h1  id="operand3">3</h1>
         </div>
         <div class="operators">
             <h1 id="minus">+</h1>
@@ -77,15 +77,16 @@
         </div>
 
         <div class="operators">
-            <h1>0</h1>
+            <h1  id="operand">0</h1>
         </div>
         <div class="operators">
-            <h1>.</h1>
+            <h1  id="operand">.</h1>
         </div>
         <div class="equaloperators">
             <h1 id="result">=</h1>
         </div>
      </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
